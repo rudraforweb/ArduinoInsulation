@@ -1,7 +1,6 @@
 # ArduinoInsulation
 
 A Hillsborough County STEM Fair Project that involves using an Arduino. This repository includes the code and instructions on how to use it.
-Video is avaiable at the bottom.
 ## Hardware Setup
 ### Materials:
 - Arduino UNO R4 <img src="https://github.com/user-attachments/assets/d5f73ee5-256b-4384-9eac-ebf076a82745" width="20">
