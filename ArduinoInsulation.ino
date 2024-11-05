@@ -132,7 +132,7 @@ void setup() {
         logCounter++;  // Increment log count for the next entry
 
         // Wait for 5 minutes (300000 milliseconds)
-        delay(1000);
+        delay(300000);
     }
   Serial.println("Test finished: COTTON");
   button.LEDconfig(brightness, cycleTime, offTime);
@@ -206,7 +206,7 @@ void setup() {
         logCounter++;  // Increment log count for the next entry
 
         // Wait for 5 minutes (300000 milliseconds)
-        delay(1000);
+        delay(300000);
     }
 
   myOLED.text(0, 20, "Finished:Press button", 1);
@@ -280,7 +280,7 @@ void setup() {
         logCounter++;  // Increment log count for the next entry
 
         // Wait for 5 minutes (300000 milliseconds)
-        delay(1000);
+        delay(300000);
     }
 
   myOLED.text(0, 20, "Finished:Press button", 1);
@@ -354,7 +354,7 @@ void setup() {
         logCounter++;  // Increment log count for the next entry
 
         // Wait for 5 minutes (300000 milliseconds)
-        delay(1000);
+        delay(300000);
     }
 
   myOLED.text(0, 20, "Finished:Press button", 1);
@@ -428,7 +428,7 @@ void setup() {
         logCounter++;  // Increment log count for the next entry
 
         // Wait for 5 minutes (300000 milliseconds)
-        delay(1000);
+        delay(300000);
     }
 
   myOLED.text(0, 20, "Finished:Press button", 1);
@@ -465,32 +465,5 @@ void setup() {
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
-  float t = dht22.getTemperature();
-  float h = dht22.getHumidity();
-  String tempStr = String(t);
-
-  /*float t1 = main22.getTemperature();
-  float h1 = main22.getHumidity();
-
-  if (dht22.getLastError() != dht22.OK) {
-    Serial.print("last error :");
-    Serial.println(dht22.getLastError());
-  }
-  if (main22.getLastError() != main22.OK) {
-    Serial.print("last error :");
-    Serial.println(dht22.getLastError());
-  }
-  Serial.println("-------------------------------");
-  Serial.println("Insulation TEMP");
-  Serial.print("h=");Serial.print(h,1);Serial.print("\t");
-  Serial.print("t=");Serial.println(t,1);
-  delay(300000); //Collecting period should be : >1.7 second
-  Serial.println("-------------------------------");
-
-  Serial.println("OUTSIDE");
-  Serial.print("h=");Serial.print(h1,1);Serial.print("\t");
-  Serial.print("t=");Serial.println(t1,1);
-  delay(300000); //Collecting period should be : >1.7 second
-  Serial.println("-------------------------------");*/
+  // empty loop
 }
