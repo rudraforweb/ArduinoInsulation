@@ -170,7 +170,7 @@ void setup() {
     float t = dht22.getTemperature();
     String tempStr = String(t);
     myOLED.text(90, 10, tempStr, 1);
-    myOLED.text(0, 20, "Press to start COTTON", 1);
+    myOLED.text(0, 20, "Press to start WOOL", 1);
     myOLED.display();
     delay(100);
       button.LEDconfig(brightness, cycleTime, offTime);
