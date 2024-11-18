@@ -28,3 +28,6 @@ You can also find these libraries in the Library Manager tab in the Arduino IDE.
 1. Run the program.
 2. Press the button when prompted to on the display after following the steps.
 3. Repeat the program by pressing the RESET button on the Arduino.
+
+## Need more help?
+If you need more help, go to https://docs.arduino.cc/tutorials/uno-r4-wifi/r4-wifi-getting-started/.
